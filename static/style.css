@@ -1,0 +1,117 @@
+/*  
+ * 	1. Install Sass:
+ * 	   For Windows, Mac or Linux through Node.js
+ *		`npm install -g sass`
+ * 
+ * 	   For Mac OS X, through Homebrew
+ * 		`brew install sass/sass/sass`
+ *
+ * 	2. Convert .scss to css:
+ * 	    `sass style.scss style.css`
+ *
+ *		For continuous conversion use:
+ * 		 `sass --watch style.scss:style.css`
+ *
+*/
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #e7e7e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Credit Card */
+.credit-card {
+  width: 80%;
+  max-width: 400px;
+  height: 300px;
+  margin: 60px auto 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 5px 3px 15px 20px rgba(0, 0, 0, 0.05);
+  /* Buttons Section */
+}
+.credit-card .form-header {
+  height: 60px;
+  padding: 20px 30px 0;
+  border-bottom: 1px solid #e1e8ee;
+  /* Title */
+}
+.credit-card .form-header .title {
+  font-size: 18px;
+  margin: 0;
+  color: #5e6977;
+}
+.credit-card .form-body {
+  height: 340px;
+  padding: 2em 2em 1em;
+  /* Common */
+}
+.credit-card .form-body .flexbox {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 0.5em 0.5em;
+  color: lightgrey;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.credit-card .form-body .flexbox .fab {
+  color: #333;
+}
+.credit-card .form-body .card-number {
+  height: 40px;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 14px;
+  opacity: 0.7;
+  color: #86939e;
+  width: 100%;
+  padding-left: 20px;
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+}
+.credit-card .form-body p {
+  margin: 2px 0 3px;
+  line-height: 1.618;
+}
+.credit-card .btn-container {
+  width: 100%;
+  height: 32.5px;
+  margin-top: 15px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.credit-card .btn-container button {
+  cursor: pointer;
+  width: 40%;
+  border-radius: 6px;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.credit-card .btn-container button.proceed-btn {
+  background: rgba(125, 200, 85, 0.85);
+  border-color: #7dc855;
+}
+.credit-card .btn-container button.cancel-btn {
+  background: rgba(169, 68, 66, 0.85);
+  border-color: #a94442;
+}
+
+/*# sourceMappingURL=style.css.map */
