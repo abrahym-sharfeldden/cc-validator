@@ -1,11 +1,12 @@
 # Credit Card Validator
 
-<!-- 
-Finally, in your readme file, explain why (100-500 words) you preferred to implement the luhn algorithm with javascript for parsing user input as opposed to another language such as scheme. 
-In particular, address how the JavaScript syntax has some weaknesses with concrete examples and 
+<!--
+Finally, in your readme file, explain why (100-500 words) you preferred to implement the luhn algorithm with javascript for parsing user input as opposed to another language such as scheme.
+In particular, address how the JavaScript syntax has some weaknesses with concrete examples and
 describe some ways that people/orgs have tried to overcome the weaknesses?
  -->
-This project is the second assignment for the C.S. class, CISC.3140. This assignment uses mainly vanilla javascript to perform Luhn's Algorithm in order to verify credit card numbers. 
+
+This project is the second assignment for the C.S. class, CISC.3140. This assignment uses mainly vanilla javascript to perform Luhn's Algorithm in order to verify credit card numbers.
 
 I chose javascript over scheme because of it's revelance to my interests as a Web Developer. I haven't had much practice coding in vanillaJS which made this assignment all the more fun, and frustrating. I feel a lot more comfortable using javascript's plethora of options when it comes to parsing in user input. This can often be a weakness as there are many functions available to perform one task, some being marginally better than others with how they interact with your code (e.g. textContent vs innerHTML) or simply the speed (e.g. getElementById vs querySelector). Another issue with javascript is its challenging to create a scalable javascript file without having extensive knowledge of the programming language and also a concept of programming paradigms. This has been overcome by the influx of JS frameworks and libraries. Facebook's React library, Google's Angular, and NodeJS are some of the more popular javascript developments.
 
@@ -28,7 +29,6 @@ brew install python
 ```
 pip3 install flask
 ```
-
 
 ### Installing
 
@@ -56,12 +56,7 @@ flask run
 
 ## Built With
 
-* [HTML/CSS]() - User Interface
-* [Javascript]() - Scripting Language
-* [Flask](http://flask.pocoo.org/) - The web framework used
-* [Python](https://www.python.org/) - Programming Language
-
-## Authors
-
-* **Abrahym Sharf Eldden** - *Initial Work* - [abrahym-sharfeldden](https://github.com/abrahym-sharfeldden)
-* **Billie Thompson** - *[README.md Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)* - [PurpleBooth](https://github.com/PurpleBooth)
+-   [HTML/CSS]() - User Interface
+-   [Javascript]() - Scripting Language
+-   [Flask](http://flask.pocoo.org/) - The web server used
+-   [Python](https://www.python.org/) - Programming Language
